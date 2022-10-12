@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet"
+          href="styles.css">
+    <title>Document</title>
+</head>
+<body style="max-height : 100vh">
+<header style="min-height: 10vh; background-color: cornflowerblue">
+    <nav>
+        <a id="link_logo"
+           href="#home">
+            <img src="logo.jpeg"
+                 width="64"
+                 height="64"
+                 title="logo"
+                 alt="logo"/>
+        </a>
+        <a id="link_home"
+           href="#home">Home</a>
+        <a id="link_product"
+           href="#product">Product</a>
+        <a id="link_contact"
+           href="#contact">Contact</a>
+    </nav>
+</header>
+<main style="min-height: 60vh; background-color: darkcyan">
+    <div id="home">
+        <div>
+            <h1>Titulo</h1>
+            <p>paragraph</p>
+            <a href="#product">Coming soon</a>
+        </div>
+    </div>
+    <div id="product">
+        <div id="col-1">
+            <div>
+                <h2>Product 1</h2>
+                <p>Product 1</p>
+            </div>
+            <img src="p1.jpg"
+                 title="Product 1"
+                 alt="Product 1"/>
+        </div>
+        <div id="col-2">
+            <div>
+                <h2>Product2</h2>
+                <p>Product 2</p>
+            </div>
+            <img src="p2.jpg"
+                 title="Product 2"
+                 alt="Product 2"/>
+        </div>
+    </div>
+</main>
+<footer style="min-height: 30vh; background-color: grey">
+    <div id="contact">
+        <div id="contact-col1">
+            <a id="footer_link_logo"
+               href="#home">
+                <img src="logo.jpeg"
+                     width="64"
+                     height="64"
+                     title="logo"
+                     alt="logo"/>
+            </a>
+            <div>
+                <a id="footer_link_home"
+                   href="#home">Home</a>
+                <a id="footer_link_product"
+                   href="#product">Product</a>
+                <a id="footer_link_contact"
+                   href="#contact">Contact</a>
+            </div>
+            <p>2022</p>
+        </div>
+        <div id="contact-col2">
+            <form>
+                <h5>Contact us</h5>
+                <div style="margin-bottom: 16px">
+                    <label style="display: block"
+                           for="email">Email</label>
+                    <input id="email"
+                           placeholder="Enter your email address"
+                           type="email"
+                           required>
+                </div>
+                <div style="margin-bottom: 16px">
+                    <label>check<input type="checkbox"
+                                       required></label>
+                </div>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
